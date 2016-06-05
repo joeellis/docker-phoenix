@@ -6,6 +6,7 @@ ENV ELIXIR_VERSION 1.2.4
 ENV PATH $PATH:/opt/elixir-${ELIXIR_VERSION}/bin
 
 RUN apk --update add build-base \
+                     bash \
                      ca-certificates \
                      erlang \
                      erlang-crypto \
